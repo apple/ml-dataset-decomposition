@@ -177,7 +177,7 @@ The following table summarizes some billion-scale results:
 - For models with **SFT**, we follow the same setup as DCLM-Baseline.  
 - **DD** refers to Dataset Decomposition, and **C&C** refers to concat-and-chunk.  
 
-All models are trained with a context length of `8192` and a total of `2^40` seen tokens (~1.1 billion tokens).
+All models are trained with a context length of `8192` and a total of `2^40` seen tokens (~1.1 trillion tokens).
 
 | **Model**       | Dataset | Method | SFT | MMLU | ArcE | ArcC | Hellaswag | LambadaOAI | Winogrande | Winograd | WikiQA | OBQA | SQuAD | PIQA | COPA | CoQA | BoolQ |
 |-----------------|---------|--------|-----|------|------|------|-----------|------------|------------|----------|--------|------|-------|------|------|------|-------|
